@@ -1,6 +1,6 @@
 package com.vrushali.hf.dp.strategy.discountcalculation;
 
-public class DiscountCalculationShoppingCart {
+public class DiscountCalculationShoppingCartTest {
     public static void main(String[] args) {
         ShoppingCart cart = new ShoppingCart();
         cart.addItem(new Item("Shoes", 100));

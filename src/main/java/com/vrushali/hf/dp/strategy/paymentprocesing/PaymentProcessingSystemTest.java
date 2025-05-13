@@ -1,6 +1,6 @@
 package com.vrushali.hf.dp.strategy.paymentprocesing;
 
-public class PaymentProcessingSystem {
+public class PaymentProcessingSystemTest {
     public static void main(String[] args) {
         PaymentContext paymentContext = new PaymentContext();
 

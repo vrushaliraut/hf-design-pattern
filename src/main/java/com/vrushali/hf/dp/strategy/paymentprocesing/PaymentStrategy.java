@@ -1,5 +1,5 @@
-package com.vrushali.hf.dp.behaviour;
+package com.vrushali.hf.dp.strategy.paymentprocesing;
 
-public interface FlyBehaviour {
-    void fly(); // represent flying behaviour
+public interface PaymentStrategy {
+    void processPayment(double amount);
 }

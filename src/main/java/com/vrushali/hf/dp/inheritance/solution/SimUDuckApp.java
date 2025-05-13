@@ -4,6 +4,7 @@ public class SimUDuckApp {
     public static void main(String[] args) {
         System.out.println("=== Mallard Duck ===");
         Duck mallard = new MallardDuck();
+
         testDuck(mallard);
 
         System.out.println("\n === RedHeadDuck Duck ===");

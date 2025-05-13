@@ -1,4 +1,4 @@
-package basics.generics;
+package basics.threading;
 
 public class ThreadExampleForTermination {
     public static void main(String[] args) throws InterruptedException {

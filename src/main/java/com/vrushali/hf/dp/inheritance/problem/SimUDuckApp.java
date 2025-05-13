@@ -1,5 +1,7 @@
 package com.vrushali.hf.dp.inheritance.problem;
 
+import java.util.Arrays;
+
 public class SimUDuckApp {
     public static void main(String[] args) {
 
@@ -9,31 +11,9 @@ public class SimUDuckApp {
         Duck rubber = new RubberDuck();
         Duck decoy = new DecoyDuck();
 
-        // Test each duck
-        System.out.println("=== Mallard Duck ===");
-        mallard.display();
-        mallard.quack();
-        mallard.swim();
-        mallard.fly();
-
-
-        System.out.println("\n=== ReadHead Duck ===");
-        redHead.display();
-        redHead.quack();
-        redHead.swim();
-        redHead.fly();
-
-
-        System.out.println("\n=== Rubber Duck ===");
-        rubber.display();
-        rubber.quack();
-        rubber.swim();
-        rubber.fly();
-
-        System.out.println("\n=== Decoy Duck ===");
-        decoy.display();
-        decoy.quack(); // No output
-        decoy.swim();
-        decoy.fly();
+        for (Duck duck : Arrays.asList(mallard, redHead, rubber, decoy)) {
+            duck.display();
+            duck.swim();
+        }
     }
 }

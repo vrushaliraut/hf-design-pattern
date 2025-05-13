@@ -1,8 +1,8 @@
 package com.vrushali.hf.dp.behaviour;
 
 public abstract class Duck {
-    FlyBehaviour flyBehaviour;
-    QuackBehaviour quackBehaviour;
+    com.vrushali.hf.dp.behaviour.FlyBehaviour flyBehaviour;
+    com.vrushali.hf.dp.behaviour.QuackBehaviour quackBehaviour;
 
     public void swim(){
         System.out.println("All ducks float even decoys");
@@ -17,11 +17,11 @@ public abstract class Duck {
     }
 
     // change flying or quacking behaviour at runTime
-    public void setFlyBehaviour(FlyBehaviour flyBehaviour){
+    public void setFlyBehaviour(com.vrushali.hf.dp.behaviour.FlyBehaviour flyBehaviour){
         this.flyBehaviour = flyBehaviour;
     }
 
-    public void setQuackBehaviour(QuackBehaviour quackBehaviour){
+    public void setQuackBehaviour(com.vrushali.hf.dp.behaviour.QuackBehaviour quackBehaviour){
         this.quackBehaviour = quackBehaviour;
     }
 
